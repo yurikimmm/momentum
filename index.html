@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>MOMENTUM</title>
+
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        @font-face {
+            font-family: 'GmarketSansMedium';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+
+            font-family: 'GmarketSansBold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            
+
+        }
+
+
+
+        body {
+            font-family: 'GmarketSansMedium';
+            margin: 0px;
+            color: white;
+        }
+
+        .fullframe {
+            background-image: url(https://cdn.pixabay.com/photo/2022/06/12/22/48/gradient-7258997_1280.png);
+            background-size: 150%;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align:center;
+
+        }
+
+        .time {
+            font-family: 'GmarketSansBold';
+            font-size: 100px;
+            font-weight: bold;
+            width:auto;
+            padding-top:100px;
+            padding-bottom:50px;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .greeting {
+            font-size: 36px;
+            padding:10px;
+        }
+
+        .todo {
+            font-size: 24px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+
+
+        .quote {
+            width: 80vw;
+            height: 20vh;
+            line-height: 150%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class=fullframe>
+        <div class="main">
+            <div id="time" class="time">12:00</div>
+
+            <div id="summary">
+                <div class="greeting">Hello, YURI! </div>
+                <div class="todo">독서와 운동을 꾸준히 하자</div>
+            </div>
+        </div>
+        <div class="quote">
+            <div id="author" class="author">- name -</div>
+            <div id="content" class="content">"Bla Bla Bla~"</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
